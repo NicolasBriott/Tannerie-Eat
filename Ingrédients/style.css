@@ -1,0 +1,342 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+
+body{
+  background: url(../Ingrédients/burger.png) fixed 0 0;
+  background-repeat: no-repeat;
+  height: 25vh;
+  background-color: #2A2A2D;
+ 
+}
+
+
+#ingrédients{
+  display: flex;
+  flex-direction: column;
+  width: 322px;
+  color: white;
+  margin: auto;
+  margin-top: 75px;
+  position: relative;
+}
+
+#ingrédients:before {
+  content: '';
+  background: url(../Ingrédients/burger.png) fixed 0 0;
+  -webkit-filter: blur(10px); 
+  backdrop-filter: blur(7px);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  position: absolute;
+  top: 0;
+  bottom:0;
+  left: 0;
+  right: 0;    
+  z-index: -1;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.burger{
+  padding: 15px;
+
+}
+
+
+h3{
+  color:white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.2em;
+  padding: -10px;
+}
+
+
+.prix{
+  color:#F0E514;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+
+}
+
+.txtburger{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 0.83em;
+  color: hsla(0, 0%, 100%, 0.700);
+
+}
+
+
+.sélection{
+  margin-top: 39px;
+  margin-right: 29px;
+  margin-left: 29px;
+  width: 322px;
+  height: 1590px;
+  background-color: hsla(240, 3%, 17%, 0.20);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 25px;
+ 
+}
+
+.ChoixIngrédients{
+  margin-top: -40px;
+  margin-left: 15px;
+  margin-right: 15px;
+ 
+}
+
+.ChoixIngrédientsPlusRequis{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  align-items: baseline;
+}
+
+.TxtChoixIngrédients{
+  color:white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.05em;
+  padding-top: 13px;
+}
+
+.Requis{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.Rectangle{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90px;
+  height: 30px;
+  background-color:#22253A ;
+  border-radius: 85px;
+}
+
+.TxtRequis{
+  color:white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 0.80em;
+  
+}
+
+.cercle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50px;
+  background-color: #D9D9D9;
+  
+}
+
+.chiffre{
+  color: #22253A;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 0.80em;
+
+}
+
+
+
+
+
+
+.SoloIngrédinetsPlusRond{
+  margin-top: 25px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+
+
+.Rond{
+  width: 18px;
+  height: 18px;
+  border-radius: 50px;
+  background-color: #466F7C;
+}
+
+.txt1{
+  padding-left: 30px;
+  color: hsla(0, 0%, 100%, 0.500);
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+
+.SoloIngrédinetsPlusRond2{
+  margin-top: 25px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+
+
+.Rond2{
+  width: 18px;
+  height: 18px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.txt2{
+  padding-left: 30px;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+
+
+
+
+
+.ChoixSuppléments{
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+ 
+}
+
+.ChoixSupplémentsPlusRequis{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  align-items: baseline;
+}
+
+.TxtChoixSuppléments{
+  color:white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.05em;
+  padding-top: 13px;
+}
+
+.cercle2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50px;
+  background-color: #D9D9D9;
+  
+}
+
+.chiffre2{
+  color: #22253A;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 0.80em;
+
+}
+
+
+
+.ChoixBoisson{
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+ 
+}
+
+.ChoixBoissonsPlusRequis{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  align-items: baseline;
+}
+
+.TxtChoixBoisson{
+  color:white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.05em;
+  padding-top: 13px;
+}
+
+.cercle2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50px;
+  background-color: #D9D9D9;
+  
+}
+
+.chiffre2{
+  color: #22253A;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 0.80em;
+
+}
+
+
+
+.ChoixSauce{
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+ 
+}
+
+.ChoixSaucePlusRequis{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  align-items: baseline;
+}
+
+.TxtChoixSauce{
+  color:white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.05em;
+  padding-top: 13px;
+}
+
+
+
+.AjouterAuPanier{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+}
+
+.BtnAjouterAuPanier{
+ 
+  width: 200px;
+  height: 35px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1.0em;
+  color: white;
+  background-color: #466F7C;
+  border-radius: 5px;
+  border-style: none;
+
+
+
+}
+
