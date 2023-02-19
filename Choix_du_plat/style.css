@@ -1,0 +1,270 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+
+body{
+  margin: 0px;
+  background: url(../Ingrédients/burger.png) fixed 0 0;
+  background-repeat: no-repeat;
+  height: 25vh;
+  background-color: #2A2A2D;
+  width: 380px;
+  height: 1600px;
+ 
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 29px;
+  margin-right: 29px;
+
+}
+
+.Resto{
+  display: flex;
+  flex-direction: column;
+  height: 45vh;
+  justify-content: flex-end;
+}
+
+.txtResto{
+  display: flex;
+  width:210px;
+  height: 40px;
+  border-radius: 5px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsla(0, 0%, 0%, 0.400);
+  margin-bottom: 10px;
+  color:white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.6em;
+
+}
+
+.Notation{
+  
+  display: flex;
+  width: 90px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.txtNotation{
+  color:#F0E514;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+.InfoResto{
+  margin-top: 35px;
+  color:hsl(0, 0%, 70%);
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+.InfoResto>p{
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+
+.CommandeGroupée{
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 210px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #466F7C;
+
+}
+
+.TxtCommandeGroupée{
+  padding-left: 10px;
+  color:hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+.user {
+  width: 19px;
+  height: 19px;
+}
+
+
+.NosBrugers{
+  font-display: flex;
+  margin-top: 25px;
+  
+}
+
+.TxtNosBurgers{
+  margin-bottom: 25px;
+  color:hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.3em;
+  
+}
+
+
+.LeClassique{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.infosLeClassique{
+  display: flex;
+  flex-direction: column;
+}
+
+.TitreLeClassique{
+  color:hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  margin-bottom: 6px;
+}
+
+.Prix{
+  color:#F0E514;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  margin-bottom: 6px;
+}
+
+.TxtLeClassique{
+  color:hsl(0, 0%, 80%);
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 0.85em;
+  margin-bottom: 6px;
+}
+
+
+
+.LeDoubleCheeseburger{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.infosLeDoubleCheeseburger{
+  display: flex;
+  flex-direction: column;
+}
+
+.TitreLeDoubleCheeseburger{
+  color:hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  margin-bottom: 6px;
+}
+
+.Prix{
+  color:#F0E514;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  margin-bottom: 6px;
+}
+
+.TxtLeDoubleCheeseburger{
+  color:hsl(0, 0%, 80%);
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 0.85em;
+  margin-bottom: 6px;
+}
+
+
+
+
+.LeBaconCheeseburger{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.infosLeBaconCheeseburger{
+  display: flex;
+  flex-direction: column;
+}
+
+.TitreLeBaconCheeseburger{
+  color:hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  margin-bottom: 6px;
+}
+
+.Prix{
+  color:#F0E514;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  margin-bottom: 6px;
+}
+
+.TxtLeBaconCheeseburger{
+  color:hsl(0, 0%, 80%);
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 0.85em;
+  margin-bottom: 6px;
+}
+
+
+
+
+.LeBigBoss{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.infosLeBigBoss{
+  display: flex;
+  flex-direction: column;
+}
+
+.TitreLeBigBoss{
+  color:hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  margin-bottom: 6px;
+}
+
+.Prix{
+  color:#F0E514;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  margin-bottom: 6px;
+}
+
+.TxtLeBigBoss{
+  color:hsl(0, 0%, 80%);
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 0.85em;
+  margin-bottom: 6px;
+}
+
